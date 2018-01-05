@@ -1,0 +1,16 @@
+#ledger_right{
+	min-height: 100%;
+	width: 49%;
+	background: #fff;
+	float: right;
+	border: 1px solid #000;
+	padding-left: 1px;
+}
+#ledger_left{
+	min-height: 100%;
+	width: 49%;
+	background: #fff;
+	float: right;
+	border: 1px solid #000;
+	padding-right: 1px;
+}

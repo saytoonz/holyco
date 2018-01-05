@@ -1,0 +1,59 @@
+#info table	{
+		width:150px;
+		height:20px;
+		margin-left:5px;
+		margin-top:20px;
+		color: #000;
+}
+.terms	{
+		width:150px;
+		height:30px;
+		border-radius:5px;
+}
+.inputs	{
+		width:200px;
+		height:30px;
+		border-radius:5px;
+		padding:5px;
+		color: #000;
+}
+.next input	{
+		width:130px;
+		height:30px;
+		border-radius:5px;
+		padding:3px;	
+		margin-right: 10px;
+		color: #000;
+}
+
+
+.fill 	{
+		width:700px;
+		margin-left:40px;
+		
+		
+}
+.fill input	{
+		width:100px;
+		height:40px;
+		border-radius:3px;
+		margin-left: 45px;
+		padding:5px;
+		font-size:18px;
+		text-align:center;
+		color: #000;	
+	}
+
+.fill th	{
+		font-size:18px;
+	}
+.fill select {
+		border-radius:3px;
+		padding:5px;
+		text-align:center;
+		margin-left: 15px;
+	}
+
+#info input{
+	color: #000;
+	}

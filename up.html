@@ -1,0 +1,74 @@
+<html>
+<head>
+<style type="text/css">
+    .image-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 9999;
+    display: none;
+    overflow: auto;
+}
+
+.image-overlay .image-overlay-close {
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    line-height: 35px;
+    font-size: 20px;
+    color: #eee;
+    text-align: center;
+    cursor: pointer;
+}
+
+.image-overlay img {
+    width: auto;
+    height: auto;
+    max-width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+</style>
+<script src="js/jquery3.2.1.min.js"></script>
+</head>
+<body>
+
+
+<img src="http://www.outlier.com/sites/www.outlier.com/files/styles/large/public/science-social-media.png?itok=pvP5t1iF">
+<img src="http://localhost/sch/images/crest.png">
+
+<script type="text/javascript">
+$('body').append('<div class="image-overlay"><span class="image-overlay-close">x</span><img src="" /></div>');
+var Image = $('img');
+var Overlay = $('.image-overlay');
+var OverlayImage = $('.image-overlay img');
+
+Image.click(function () {
+    var ImageSource = $(this).attr('src');
+
+    OverlayImage.attr('src', ImageSource);
+    Overlay.fadeIn(100);
+    $('body').css('overflow', 'hidden');
+
+    $('.image-overlay-close').click(function () {
+        Overlay.fadeOut(100);
+        $('body').css('overflow', 'auto');
+    });
+});
+</script>
+
+</body>
+</html>

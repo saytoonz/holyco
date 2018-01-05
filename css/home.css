@@ -1,0 +1,220 @@
+@charset "utf-8";
+
+#homeall{
+	width: 1052px;
+	height: 597px;
+	text-align: center;
+	box-shadow: 5px 5px 10px rgba(0,0,0,1);
+	background: #ffe;
+	position: absolute;
+	margin-left: 156px;
+	margin-top: 40px;
+}
+#leftsidepannel{
+	width: 243px;
+	height: 597px;
+	text-align: center;
+	background: #f5f5d2;
+	box-shadow: 7px 5px 5px rgba(0,0,0,.8)
+}
+#changepass{
+width:40px;
+height:35px;
+	box-shadow: 7px 5px 5px rgba(0,0,0,.8)
+background:url(../images/changepass.png);
+float:left;
+margin-top:13px;
+margin-left:100px;
+cursor:pointer;
+}
+#changepass:hover{
+background:url(../images/changepass2.png);
+}
+#logout{
+width:40px;
+height:35px;
+background:url(../images/logout.png);
+float:left;
+margin-top:13px;
+margin-left:7px;
+cursor:pointer;
+}
+#logout:hover{
+background:url(../images/but.png);
+}
+#home{
+width:40px;
+height:35px;
+background:url(../images/home.png);
+float:left;
+margin-top:13px;
+margin-left:7px;
+cursor:pointer;
+}
+#home:hover{
+background:url(../images/home2.png);
+}
+#leftsidepannel #crest  img{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	background:url(../images/crest.png);
+	border: 0px;
+	height: 200px;
+	width: 175px;
+	background-size: 175px 200px;
+}
+#leftsidepannel ul{
+	margin-top: 13px;
+}
+#leftsidepannel ul a{
+	text-decoration: none;
+	width: 100%;
+}
+#leftsidepannel ul li img{
+	height: 40px;
+	width: 40px;
+	position: absolute;
+}
+#leftsidepannel ul li{
+	margin-top: 4%;
+	list-style: none;
+	width: 96%;
+	height: 30px;
+	padding: 5px;
+	font-family: Times New Roman;
+	font-size: 21px;
+	color: #03b;
+	background:url(../images/arror.png);
+	background-size: 25px 25px;
+	background-position:155px 7px;
+	background-repeat: no-repeat; 
+	text-align: left;
+	margin-left: 55px;
+	padding-top: 10px;
+}
+#leftsidepannel ul li:hover{
+	text-decoration: none;
+	background-color: #fff;
+	font-size: 21px;
+	font-weight: lighter;
+	background:url(../images/arror2.png);
+	background-size: 25px 25px;
+	background-position:155px 7px;
+	background-repeat: no-repeat; 
+	color: #03b;
+	padding-top: 10px;
+}
+
+#hover:hover{
+	text-decoration: none;
+	background-color: #fff;
+	font-size: 27px;
+	font-weight: bolder;
+	color: #03b;
+	text-shadow: 1px 1px #000;
+}
+
+#otherside{
+	width: 798px;
+	float: right;
+	height: 527px;
+}
+
+#navbar{
+	width: 809px;
+	height: 34px;
+	background:url(../images/nav.png);
+	background-size: 809px 40px;
+	background-repeat: no-repeat;
+	background-color: #000;
+	border-bottom: 1.3px solid #117b7b;
+	float: right;
+	padding-top: 5px;
+}
+#navbar #holder{
+	height: 30px;
+	width: 700px;
+	padding-left: 15px;
+	float: right;
+	margin-right: 90px;
+}
+#navbar #holder ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+#navbar #holder ul li input[type="button"]{
+	text-decoration: none;
+	float: left;
+	margin-left: 4px;
+	font-family: Lucida Fax, Lucida Bright, Arial, Gadget, sans-serif;
+	display: inline;
+	padding: 7px 7px 7px 7px;
+	background-color: #fff;
+	text-align: center;
+	cursor: pointer;
+	color: blue;
+	font-weight: bolder;
+	border-radius: 7px 7px 0px 0px;
+	font-size: 12px;
+	border-bottom: 0px dotted #00f;
+}
+#navbar #holder ul li input[type="button"]:hover{
+	background-color: #fff;
+	color: #ccf;
+	text-shadow: 1px 1px 1px #000;
+	border-bottom: 1.9px dotted #00f;
+}
+#navbar #holder ul li input[type="button"].onlink{
+	background-color: #f8f1f1;
+	color: #010320;
+	border-bottom: 2px solid #00ffff;
+	text-shadow: 1px 1px 1px #000;
+}
+#navbar #holder ul li input[type="button"].onlink:hover{
+	background-color: #3cb9b9 ;
+	color: #03b;
+	border-bottom: 2px solid #fff;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#otherside .thedivs{
+	height: 108%;
+	background: #f5f5d2;
+	margin-top: 39px;
+}
+
+#otherside #general{
+	height: 108%;
+	background: #226cda;
+	margin-top: 39px;
+	background-image: url(../images/welcome.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#otherside #general input[type="submit"]{
+	margin-top: 60%;
+	text-align: center;
+	padding: 15px;
+	padding-left: 30px;
+	box-shadow: 10px 10px 10px rgba(0,0,0,1);
+	background: #3f65b7;
+	background-clip: padding-box;
+	border: 2px solid #045bab;
+	border-bottom-color: #142647;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 16px;
+	font-family: Open sans, sans-serif, Arial, Times New Roman;
+	font-weight: 600;
+	background-image: -webkit-radial-gradient(cover, #1d91fd, #3cb9b9);
+	background-image: -moz-radial-gradient(cover, #1d91fd, #3cb9b9);
+	background-image: -o-radial-gradient(cover, #1d91fd, #3cb9b9);
+	background-image: radial-gradient(cover, #1d91fd, #3cb9b9);
+	-webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 1px 1px rgba(255, 255, 255, 0.1), 0 2px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 1px 1px rgba(255, 255, 255, 0.1), 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+#otherside #general input[type="submit"]:hover{
+	background-color: #e8f0f8;
+	color: #142647;
+}

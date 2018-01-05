@@ -1,0 +1,340 @@
+#pay_fees{
+	width: 280px;
+	height: 370px;
+	text-align: center;
+	padding: 10px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,1);
+	background: #3f65b7;
+	background-clip: padding-box;
+	border: 1px solid #172b4e;
+	border-bottom-color: #142647;
+	border-radius: 5px;
+	background-image: -webkit-radial-gradient(cover, #3cb9b9, #3cb9b9);
+	background-image: -moz-radial-gradient(cover, #3960a6, #3cb9b9);
+	background-image: -o-radial-gradient(cover, #3cb9b9, #3cb9b9);
+	background-image: radial-gradient(cover, #3cb9b9, #3cb9b9);
+	-webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 1px 1px rgba(255, 255, 255, 0.1), 0 2px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 1px 1px rgba(255, 255, 255, 0.1), 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+#pay_fees form input[type="radio"]{
+	margin-bottom: 15px;
+	border-radius: 7px;
+	margin-top: 25px;
+	color: #fff;
+	font-size: 35px;
+}
+#pay_fees form input[type="text"],input[type="date"]{
+	padding: 5px;
+	width: 90%;
+	height: 35px;
+	background:rgba(0, 0, 0, 0.1);
+	margin-bottom: 8px;
+	border-radius: 7px;
+	border-top: 1px solid rgba(0, 0, 0,.7);
+	border-left: 1px solid rgba(0, 0, 0,.7);
+	border-bottom: 0px solid rgba(0, 0, 0,.7);
+	border-right: 0px solid rgba(0, 0, 0,.7);
+	margin-top: 7px;
+	color: #fff;
+	font-size: 14px;
+}
+#pay_fees form input[type="submit"]{
+	padding: 5px;
+	width: 40%;
+	height: 35px;
+	border-radius: 7px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	margin-left: 30%;
+	font-family: Lucida Fax;
+	font-weight: bolder;
+	font-size: 1em;	
+	display: block;
+	color: #294779;
+	text-align: center;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.3);
+	background-clip: padding-box;
+	border: 1px solid #284473;
+	border-bottom-color: #223b66;
+	border-radius: 4px;
+	cursor: pointer;
+	background-image: -webkit-linear-gradient(top, #d0e1fe, #96b8ed);
+	background-image: -moz-linear-gradient(top, #d0e1fe, #96b8ed);
+	background-image: -o-linear-gradient(top, #d0e1fe, #96b8ed);
+	background-image: linear-gradient(to bottom, #d0e1fe, #96b8ed);
+	-webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), inset 0 0 7px rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.15);
+	box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), inset 0 0 7px rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+#pay_fees form input:hover[type="submit"]{
+	color: #eeffff;
+}
+
+#varify_r_pass{
+	height: 41%;
+	width: 50.5%;
+	background-color: blue;
+	background-image: url(../images/school.png);
+	background-size: 100% 100%;
+	margin-left: 24.25%;
+	margin-top: 3%; 
+}
+.varify_r_info{
+	width: 100%;
+	background-color: rgba(0,0,0,.5);
+	min-height: 35%;
+	font-size: 18px;
+	background-image: -moz-radial-gradient(cover, #265c5c, rgba(0,0,0,.5));
+}
+.varify_r_info li{
+	list-style: none;
+	margin-top: 1.5%;
+
+}
+
+
+
+
+/* -------------------       Receipt       ----------------------*/
+.invoice-box{
+        max-width:90%;
+        margin:auto;
+        padding:30px;
+        border:1px solid #eee;
+        box-shadow:0 0 10px rgba(0, 0, 0, .15);
+        font-size:16px;
+        line-height:24px;
+        font-family:'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+        color:#555;
+        background-image: url(../images/crest_trans.png);
+        background-size: 60% 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 2%;
+    }
+    
+    .invoice-box table{
+        width:100%;
+        line-height:inherit;
+        text-align:left;
+    }
+    
+    .invoice-box table td{
+        padding:5px;
+        vertical-align:top;
+    }
+    
+    .invoice-box table tr td:nth-child(2){
+        text-align:right;
+    }
+    
+    .invoice-box table tr.top table td{
+        padding-bottom:20px;
+    }
+    
+    .invoice-box table tr.top table td.title{
+        font-size:45px;
+        line-height:30px;
+        color:#333;
+    }
+    
+    .invoice-box table tr.information table td{
+        padding-bottom:20px;
+    }
+    
+    .invoice-box table tr.heading td{
+        background:#eee;
+        border-bottom:1px solid #ddd;
+        font-weight:bold;
+    }
+    
+    .invoice-box table tr.details td{
+        padding-bottom:20px;
+    }
+    
+    .invoice-box table tr.item td{
+        border-bottom:1px solid #eee;
+    }
+    
+    .invoice-box table tr.item.last td{
+        border-bottom:none;
+    }
+    
+    .invoice-box table tr.total td:nth-child(2){
+        border-top:2px solid #eee;
+        font-weight:bold;
+    }
+
+   button{
+    	background-color: #3cb9b9; height: 5%; width: 10%; color: #fff; font-size: 16px; font-weight: bold; margin-top: 2%;
+    	float: right; margin-right: 10%;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .invoice-box table tr.top table td{
+            width:100%;
+            display:block;
+            text-align:center;
+        }
+        
+        .invoice-box table tr.information table td{
+            width:100%;
+            display:block;
+            text-align:center;
+        }
+    }
+
+ #print_watermark{
+ 	margin-left:25%;
+ 	display: none;
+ 	height:65%;
+ 	width:50%;
+ 	position: absolute;
+ 	z-index:-1;
+ }
+
+
+
+.report-box{
+        max-width:90%;
+        margin:auto;
+        padding:30px;
+        border:1px solid #eee;
+        box-shadow:0 0 10px rgba(0, 0, 0, .15);
+        font-size:16px;
+        line-height:24px;
+        font-family:'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+        color:#555;
+        background-image: url(../images/crest_trans.png);
+        background-size: 60% 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 2%;
+    }
+
+ .report-box table{
+        width:95%;
+        line-height:inherit;
+        text-align:left;
+    }
+
+	.report-box .head{
+    	border: 1px solid black;
+        width:100%;
+    }
+	.report-box .head td{
+    	border: 1px solid black;
+    }
+	.report-box .foot td{
+    	border-bottom: 1px dotted black;
+    }
+
+    .report-box .next{
+    	color: #000;
+    	border: 1px solid black;
+    }
+
+    .report-box .fill table{
+        padding:5px;
+        vertical-align:top;
+        border:1px solid black;
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+    .report-box .fill table td, th{
+        padding:2px;
+        text-align: left;
+    }
+    
+    .report-box table td{
+        padding:5px;
+        vertical-align:top;
+    }
+
+     .report-box .fill table td, th{
+        padding:5px;
+        vertical-align:top;
+        border:1px solid black;
+    }
+    
+    .report-box table tr td:nth-child(2){
+        text-align:right;
+    }
+    
+    .report-box table tr.top table td{
+        padding-bottom:20px;
+    }
+    
+    .report-box table tr.top table td.title{
+        font-size:45px;
+        line-height:30px;
+        color:#333;
+    }
+    
+    .report-box table tr.information table td{
+        padding-bottom:20px;
+    }
+    
+    .report-box table tr.heading td{
+        background:#eee;
+        border-bottom:1px solid #ddd;
+        font-weight:bold;
+    }
+    
+    .report-box table tr.details td{
+        padding-bottom:20px;
+    }
+    
+    .report-box table tr.item td{
+        border-bottom:1px solid #eee;
+    }
+    
+    .report-box table tr.item.last td{
+        border-bottom:none;
+    }
+    
+    .report-box table tr.total td:nth-child(2){
+        border-top:2px solid #eee;
+        font-weight:bold;
+    }
+
+   button{
+    	background-color: #3cb9b9; height: 5%; width: 10%; color: #fff; font-size: 16px; font-weight: bold; margin-top: 2%;
+    	float: right; margin-right: 10%;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .report-box table tr.top table td{
+            width:100%;
+            display:block;
+            text-align:center;
+        }
+        
+        .report-box table tr.information table td{
+            width:100%;
+            display:block;
+            text-align:center;
+        }
+    }
+
+@media print {
+body{
+	-webkit-print-color-adjust: exact;
+}
+   #print_watermark{
+ 	margin-left:25%;
+ 	display: none;
+ 	height:65%;
+ 	width:50%;
+ 	position: absolute;
+ 	z-index:-1;
+ 	-webkit-print-color-adjust: exact;
+ }
+
+ .report-box table{
+        width:100%;
+        line-height:inherit;
+        text-align:left;
+    }
+
+}

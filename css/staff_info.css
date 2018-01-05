@@ -1,0 +1,19 @@
+#img_thimbs{
+	width: 90%;
+	height: 15%;
+}
+#tee_out table{
+margin-top: 10px;
+}
+
+#tee_out table th{
+	text-align: left;
+	font-weight: bold;
+	font-family: Lucida;
+}
+
+#tee_out table td{
+	text-align: left;
+	font-weight: lighter;
+	font-family: Lucida Fax;
+}

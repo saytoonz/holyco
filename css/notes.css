@@ -1,0 +1,84 @@
+
+
+#pad{
+	font:14px/1.3 'Segoe UI',Arial, sans-serif;
+	color:#444;
+	height:315px;
+}
+
+#note{
+	font: normal 15px 'Courgette', cursive;
+	line-height: 17px;
+	color:#444;
+	background: url('../images/notes/mid_large.png') repeat-y;
+	display: block;
+	border: none;
+	width: 600px;
+	height: 200px;
+	overflow: hidden;
+	resize: none;
+	outline: 0px;
+	padding: 0 10px 0 35px;
+	margin-top: 0px; 
+}
+
+#note:hover{
+	font: normal 15px 'Courgette', cursive;
+	line-height: 17px;
+	color:#444;
+	background: url('../images/notes/mid_large.png') repeat-y;
+	display: block;
+	border: none;
+	width: 600px;
+	height: 200px;
+	overflow-y: hidden;
+	resize: none;
+	outline: 0px;
+	padding: 0 10px 0 35px;
+}
+
+#pad h2{
+	background: url('../images/notes/header_large.png') no-repeat;
+	background-size: 595px 69px;
+	overflow: hidden;
+	width: 600px;
+	text-indent: -9999px;
+	height: 69px;
+	position: relative;
+	margin-bottom: 0px;
+}
+
+#pad h1{
+	position:relative;
+	content:'';
+	background:url('../images/notes/footer_large.png') no-repeat;
+	background-size: 595px 20px;
+	width:600px;
+	height:50px;
+}
+
+
+#savednotes #div{
+	margin-top: 0px;
+	height: 180px;
+	overflow: auto;
+}
+#savednotes tr{
+	background-color: #fff;
+}
+
+#savednotes th{
+	background: #039b9b;
+	border-left: 1px solid #0319b9;
+	border-right: 1px solid #0319b9;
+	width: 33.33%;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bolder;
+	font-family: Lucida Fax;
+	height: 22px;
+	padding-top: 2px;
+	text-align: left;
+	padding-left: 3px;
+}
+

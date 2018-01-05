@@ -1,0 +1,63 @@
+.allstaff_payment{
+	height: 200px;
+	width: 200px;
+	background-color: #f3f3f3;
+	margin: 27px;
+	float: right;
+	border:  2px solid #ccc;
+	background-image: url("../images/staffpayment.png");
+	background-repeat: no-repeat;
+	background-size: 150px 150px;
+	background-position: 25px 7px;
+	font-family: Lucida Fax;
+	font-size: 16px;
+	color: #000;
+}
+.allnewentry_staff{
+	height: 200px;
+	width: 200px;
+	background-color: #f3f3f3;
+	margin: 27px;
+	float: right;
+	border:  2px solid #ccc;
+	background-image: url("../images/newentry.png");
+	background-repeat: no-repeat;
+	background-size: 150px 150px;
+	background-position: 25px 7px;
+	font-family: Lucida Fax;
+	font-size: 16px;
+	color: #000;
+}
+.allInactivate_de_staff{
+	height: 200px;
+	width: 200px;
+	background-color: #f3f3f3;
+	margin: 27px;
+	float: right;
+	border:  2px solid #ccc;
+	background-image: url("../images/allInactivate_de_staff.png");
+	background-repeat: no-repeat;
+	background-size: 150px 150px;
+	background-position: 25px 7px;
+	font-family: Lucida Fax;
+	font-size: 16px;
+	color: #000;
+}
+
+.allIn2infoupdate{
+	height: 200px;
+	width: 200px;
+	background-color: #f3f3f3;
+	margin: 27px;
+	float: left;
+	border:  2px solid #ccc;
+	background-image: url("../images/infoupdate.png");
+	background-repeat: no-repeat;
+	background-size: 150px 150px;
+	background-position: 25px 7px;
+	font-family: Lucida Fax;
+	font-size: 16px;
+	color: #000;
+}
+
+

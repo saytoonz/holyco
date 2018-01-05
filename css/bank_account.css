@@ -1,0 +1,212 @@
+#bank_all{
+
+}
+
+#bank_infos{
+	border: 1px solid #ccc;
+	height: 50%;
+	width: 90%;
+	margin-top: 60px;
+	padding: 20px;
+	margin-left: 15px;
+}
+#bank_infos table tr{
+	border-bottom: 1px solid #ccc;
+	height: 38px;
+	margin-top: 5px;
+}
+#bank_infos table tr th{
+	text-align: left;
+	font-family: Lucida Fax;
+	font-size: 18px;
+}
+#bank_infos table tr td{
+	text-align: left;
+	font-family: Times New Roman;
+	font-size: 18px;
+}
+#bank_infos table tr td input[type='submit']{
+	text-align: center;
+	font-family: Lucida Fax;
+	font-size: 16px;
+	color: #fff;
+	background-color: #039b9b;
+	border: 1px solid #cfc;
+	height: 35px;
+	width: 100px;
+	margin-left: 60px;
+	margin-right: 60px
+}
+
+
+#deposit{
+	width: 620px;
+    height: auto;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 15px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#deposit input[type="text"], input[type="date"], select{
+	background-color: #fff;
+	border-radius: 3px;
+	height: 28px;
+	width: 150px;
+	box-shadow: inset 1px 1px rgba(0,0,0,0.5);
+	border: 1px solid #d5ceee;
+	color: #000;
+    font-size: 14px;
+    padding: 0px;
+    padding-left: 3px;
+}
+option{
+    font-size: 16px;
+    font-family: Lucida Fax;
+    background-color: blue;
+    color: #fff;
+}
+#deposit form table tr{
+	text-align: left;
+	font-family: Lucida Fax;
+	font-size: 16px;
+}
+#deposit input[type="submit"]{
+	background-color: #039b9b;
+	border: 1px solid #ccc;
+	font-size: 18px;
+	color: #fff;
+	padding: 10px;
+}
+
+.product-div-overlay-close {
+    display: block;
+    position: absolute;
+    top: 235px;
+    right: 335px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    line-height: 35px;
+    font-size: 20px;
+    color: #eee;
+    text-align: center;
+    cursor: pointer;
+    z-index: 999;
+    background-color: #000;
+}
+
+.product-div-overlay .depo {
+    width: auto;
+    height: auto;
+    max-width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 6; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+    padding-top: 60px;
+    
+}
+.record_back{
+        position: fixed;
+        margin: 0px;
+        padding: 0px;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0,0,0,0.05);
+        z-index: 500;
+        display: none;
+    }
+    .records_all{
+        height: 550px;
+        width: 450px;
+        margin-top: 45px;
+        border: 4px solid #37a1e4;
+        background-color: #37a1e4;
+        overflow: hidden;
+        box-shadow: 2px 2px 7px rgba(0,0,0,0.5);
+
+
+    }
+    .records_all #menu_bar{
+        height: 27px;
+        width: 100%;
+    }
+    .records_all #menu_bar #close{
+        border: 2px solid #df1111;
+        height: 80%;
+        width: 25px;
+        text-align: center;
+        float: right;
+        margin: 0px;
+        background: #df1111;
+        color: #fff;
+        font-family: Arial;
+        cursor: pointer;
+    }
+    .records_all #menu_bar #close:hover{
+        background: #f50505;
+    }
+    .records_all #menu_bar #title{
+        height: 80%;
+        width: 90%;
+        background-color: inherit;
+        overflow: hidden;
+        text-align: center;
+        font-family: Arial;
+        font-size: 16px;
+        color: #000;
+        padding-top: 3px;
+    }
+    .records_all #record_holder{
+        overflow-y: auto;
+        height: 523px;
+        width: 100%;
+        background-color: #fff;
+        border: 1px solid #064c79;
+        text-align: left;
+        padding: 3px;
+    }
+    #close_all{
+        font-size: 20px;
+        border: 3px solid #f50505;
+        width: 90px;
+        height: 26px;
+        padding: 15px;
+        position: fixed;
+        top: 200px;
+        right: 60px;
+        background-color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+        color: #f50505;
+        box-shadow: 2px 2px 7px rgba(0,0,0,0.5);
+    }
+    #close_all:hover{
+        background-color: #ff0000;
+        color: #fff;
+        border: 3px solid #fff;
+    }

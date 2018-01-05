@@ -1,0 +1,319 @@
+#child_all{
+	height: 95.5%;
+	width: 98.8%;
+	background-color: #e2e29e;
+	padding: 5px;
+	font-family: Times New Roman;
+	overflow-x: auto;
+}
+
+#child_all .left_side table{
+	table-layout: fixed;
+	 border-collapse: collapse;
+	 width: 100%;
+	 
+}
+#child_all .left_side  legend{
+	font-weight: bolder;
+	font-size: 90%;
+	margin-top: 3.8%;
+	font-family: Lucida Calligraphy;
+}
+#child_all .left_side table th, td {
+    text-align: left;
+    padding: 5px;
+    
+}
+#child_all .left_side table th{
+    font-weight: lighter;
+    width: 38%;
+    
+}
+#child_all .left_side table tr:nth-child(even){
+	background-color: #f2f2f2
+}
+
+
+
+
+#child_all .right_side table{
+	table-layout: fixed;
+	 border-collapse: collapse;
+	 width: 100%;
+	 
+}
+#child_all .right_side  legend{
+	font-weight: bolder;
+	font-size: 90%;
+	margin-top: 4%;
+	font-family: Lucida Calligraphy;
+}
+#child_all .right_side table th, td {
+    text-align: left;
+    padding: 5px;
+    
+}
+#child_all .right_side table th{
+    font-weight: lighter;
+    
+}
+#child_all .right_side table tr:nth-child(even){
+	background-color: #f2f2f2
+}
+
+#child_all #student_passport{
+height: 27%;
+width: 17%;
+margin-top: 2%;
+margin-bottom: 2%;
+background-color: blue;
+}
+#child_all #print_edit{
+	width: 35%;
+	height: 10%;
+	background-color: #fff;
+}
+#child_all #print_edit input[type="submit"]{
+	height: 60%;
+	width: 30%;
+	background-color: #f2f2f2;
+	font-weight: 600;
+	font-size: 18px;
+	color: #3cb9b9;
+	border: 0px;
+}
+#child_all #print_edit input[type="submit"]:hover{
+
+background-color: #3cb9b9;
+color: #f2f2f2;
+}
+#child_all #print_edit button{
+	height: 60%;
+	width: 30%;
+	background-color: #f2f2f2;
+	font-weight: 600;
+	font-size: 18px;
+	color: #3cb9b9;
+	border: 0px;
+	margin-top: 2px;
+}
+#child_all #print_edit button:hover{
+
+background-color: #3cb9b9;
+color: #f2f2f2;
+}
+
+
+	.printout{
+		max-width:90%;
+        margin:auto;
+        padding:30px;
+        border:1px solid #eee;
+        box-shadow:0 0 10px rgba(0, 0, 0, .15);
+        font-size:16px;
+        line-height:24px;
+        font-family:'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+        color:#555;
+        background-image: url(../images/crest_trans.png);
+        background-size: 60% 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 2%;
+		display: block;
+	}
+
+	.printout table{
+		width:100%;
+        line-height:inherit;
+        text-align:left;
+	}
+	.printout table tr{
+		width: 78%;
+		height: 5%;
+		padding: 5px;
+		padding-top: 20px;
+	}
+	.printout legend{
+	font-weight: 900;
+	font-size: 100%;
+	margin-top: 3%;
+	margin-bottom:0%;
+	font-family: Lucida Bright;
+	text-align: center;
+	}
+	.printout table tr td:nth-child(2){
+        text-align:right;
+    }
+
+
+	.printout table tr:nth-child(even){
+		background-color: #f2f2f2
+	}
+
+}
+
+.student_error{
+	margin-top: 0%;
+	margin-left: 25%;
+	width: 50%;
+	font-weight: bold;
+	font-family: Calibri;
+	color: #fff;
+	font-size: 25px;
+	background-color: #ff0000;
+
+}
+#select_class_search_adnimno{
+		width: 280px;
+	height: 370px;
+	text-align: center;
+	padding: 10px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,1);
+	background: #3f65b7;
+	background-clip: padding-box;
+	border: 1px solid #172b4e;
+	border-bottom-color: #142647;
+	border-radius: 5px;
+	background-image: -webkit-radial-gradient(cover, #3cb9b9, #3cb9b9);
+	background-image: -moz-radial-gradient(cover, #3960a6, #3cb9b9);
+	background-image: -o-radial-gradient(cover, #3cb9b9, #3cb9b9);
+	background-image: radial-gradient(cover, #3cb9b9, #3cb9b9);
+	-webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 1px 1px rgba(255, 255, 255, 0.1), 0 2px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 1px 1px rgba(255, 255, 255, 0.1), 0 2px 10px rgba(0, 0, 0, 0.5);
+	
+}
+#select_class_search_adnimno form select, input[type="text"]{
+	padding: 5px;
+	width: 90%;
+	height: 35px;
+	background:rgba(0, 0, 0, 0.1);
+	margin-bottom: 8px;
+	border-radius: 7px;
+	border-top: 1px solid rgba(0, 0, 0,.7);
+	border-left: 1px solid rgba(0, 0, 0,.7);
+	border-bottom: 0px solid rgba(0, 0, 0,.7);
+	border-right: 0px solid rgba(0, 0, 0,.7);
+	margin-top: 7px;
+	color: #fff;
+	font-size: 14px;
+}
+#select_class_search_adnimno form input[type="submit"]{
+	padding: 5px;
+	min-width: 60%;
+	height: 35px;
+	border-radius: 7px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	margin-right: 5%;
+	float: right;
+	font-family: Lucida Fax;
+	font-weight: bolder;
+	font-size: 1em;	
+	display: block;
+	color: #294779;
+	text-align: center;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.3);
+	background-clip: padding-box;
+	border: 1px solid #284473;
+	border-bottom-color: #223b66;
+	border-radius: 4px;
+	cursor: pointer;
+	background-image: -webkit-linear-gradient(top, #d0e1fe, #96b8ed);
+	background-image: -moz-linear-gradient(top, #d0e1fe, #96b8ed);
+	background-image: -o-linear-gradient(top, #d0e1fe, #96b8ed);
+	background-image: linear-gradient(to bottom, #d0e1fe, #96b8ed);
+	-webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), inset 0 0 7px rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.15);
+	box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), inset 0 0 7px rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+#select_class_search_adnimno  form input[type="submit"]:hover{
+	color: #eeffff;
+}
+#prnt_class{
+	padding: 5px;
+	min-width: 15%;
+	height: 35px;
+	border-radius: 7px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	margin-right: 5%;
+	font-family: Lucida Fax;
+	font-weight: bolder;
+	font-size: 1em;	
+	display: block;
+	color: #294779;
+	text-align: center;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.3);
+	background-clip: padding-box;
+	border: 1px solid #284473;
+	border-bottom-color: #223b66;
+	border-radius: 4px;
+	cursor: pointer;
+	background-image: -webkit-linear-gradient(top, #d0e1fe, #96b8ed);
+	background-image: -moz-linear-gradient(top, #d0e1fe, #96b8ed);
+	background-image: -o-linear-gradient(top, #d0e1fe, #96b8ed);
+	background-image: linear-gradient(to bottom, #d0e1fe, #96b8ed);
+	-webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), inset 0 0 7px rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.15);
+	box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), inset 0 0 7px rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.15);
+
+}
+#child_all #class_pipuls{
+text-decoration: none;
+color: #fff;
+margin-top: 0px; 
+margin-bottom: 0px;
+}
+#child_all ul{
+border: 1px solid #dce5ee;
+background-color: #ccc;
+margin-bottom: 1%;
+}
+#child_all ul:hover{
+background-color: #dce5ee;
+}
+#child_all #class_pipuls li{
+font-size: 22px;
+font-family: Times New Roman;
+text-align: left;
+padding: 1.5%;
+padding-left: 3%;
+padding-bottom: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+font-weight: 600;
+}
+#child_all #class_pipuls #down{
+font-size: 14px;
+padding-top: 1.5%;
+padding-bottom: 1%;
+background-color: #3cb9b9;
+margin-top: 0px;
+margin-bottom: 0%;
+font-weight: lighter;
+}
+
+#search_r_pass{
+	height: 13%;
+	width: 9%;
+	float: right;
+	background-image: url(../images/school.png);
+	background-size: 100% 100%;
+}
+
+
+
+@media print {
+.printout{
+	-webkit-print-color-adjust: exact;
+}
+   #print_watermark{
+ 	margin-left:25%;
+ 	display: none;
+ 	height:65%;
+ 	width:50%;
+ 	position: absolute;
+ 	z-index:-1;
+ 	-webkit-print-color-adjust: exact;
+ }
+
+}

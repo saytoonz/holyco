@@ -1,0 +1,352 @@
+#new_all{
+		width:97%; 
+		background-color: #fff; 
+		max-height: 90%; 
+		padding: 12px;
+		overflow-y: auto;
+	}
+	#new_all .child_info #passport{
+		float: right;
+		margin-top: 22px;
+		margin-right: 50px;
+		margin-bottom: 50px;
+		width: 160px;
+		min-height: 170px;
+		background-image: url(../images/school.png);
+		background-position: 0px 0px auto;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		border:2px solid #dce5ee;
+	}
+	
+	#new_all .child_info input[type=file]{
+		width:102%;
+		height: 6%;
+		border-radius:2px;
+		background-color:#dfddda;
+		padding-left:2px;
+		font-family:Times New Roman;
+		font-size:14px;
+		border:1px solid #dce5ee;
+		margin-top: -20px;
+		margin-bottom: 2px;
+		margin-left: -2px;
+		margin-right: 0px;
+	}
+	#new_all .child_info fieldset{
+		width:95%; 
+		height:50%;
+		margin-left:10px;
+		float:left;
+		border-radius:10px;
+		border:1px solid #453df9;
+		margin-bottom:5px;
+		margin-top:0px;
+	}
+	#new_all .child_info legend{
+		border:0px auto;
+		font-size: 14px;
+		font-family: Lucida Fax;
+		color: #453df9;
+		font-weight: bolder;
+	}
+	#new_all .child_info input[type=text]{
+		width:28.8%;
+		height: 10%;
+		border-radius:2px;
+		padding: 0px;
+		background-color:#dfddda;
+		padding-left:5px;
+		font-family:Times New Roman;
+		font-size:16px;
+		border:1px solid #cbc9c9;
+		margin-top: 2px;
+		margin-bottom: 2px;
+		margin-left: 10px;
+		margin-right: 20px;
+		color: #000;
+	}
+
+	#new_all .child_info select{
+		width:28.8%;
+		max-height: 13%;
+		border-radius:2px;
+		background-color:#dfddda;
+		padding-left:2px;
+		font-family:Times New Roman;
+		border: 1px solid #cbc9c9;
+		font-size:17px;
+		margin-top: 3px;
+		margin-bottom: 4px;
+		margin-left: 10px;
+		margin-right: 20px;
+		color: #000;
+		padding-left: 1.5px;
+	}
+
+
+
+
+
+	#new_all .father fieldset{
+		width:35%; 
+		height:27%;
+		margin-left:10px;
+		float:left;
+		border-radius:10px;
+		border:1px solid #453df9;
+		margin-bottom:2px;
+		margin-top:2px;
+
+	}
+	#new_all .father legend{
+		border:0px auto;
+		font-size: 14px;
+		font-family: Lucida Fax;
+		color: #453df9;
+		font-weight: bolder;
+	}
+	#new_all .father input[type=text]{
+		width:46%;
+		height: 17%;
+		padding: 0px;
+		border-radius:2px;
+		background-color:#dfddda;
+		padding-left:3.5px;
+		font-family:Times New Roman;
+		font-size:16px;
+		border:1px solid #cbc9c9;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		margin-left: 3px;
+		margin-right: 0px;
+		color: #000;
+	}
+
+
+
+
+
+
+
+	#new_all .mother fieldset{
+		width:35%; 
+		height:27%;
+		margin-left:10px;
+		float:left;
+		border-radius:10px;
+		border:1px solid #453df9;
+		margin-bottom:2px;
+		margin-top:2px;
+
+	}
+	#new_all .mother legend{
+		border:0px auto;
+		font-size: 14px;
+		font-family: Lucida Fax;
+		color: #453df9;
+		font-weight: bolder;
+	}
+	#new_all .mother input[type=text]{
+		width:46%;
+		height: 17%;
+		padding: 0px;
+		border-radius:2px;
+		background-color:#dfddda;
+		padding-left:3.5px;
+		font-family:Times New Roman;
+		font-size:16px;
+		border:1px solid #cbc9c9;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		margin-left: 3px;
+		margin-right: 0px;
+		color: #000;
+	}
+
+
+
+
+
+
+
+	#new_all .medical_info fieldset{
+		width:23%; 
+		height:27%;
+		margin-left:10px;
+		float:left;
+		border-radius:10px;
+		border:1px solid #453df9;
+		margin-bottom:2px;
+		margin-top:2px;
+
+	}
+	#new_all .medical_info legend{
+		border:0px auto;
+		font-size: 14px;
+		font-family: Lucida Fax;
+		color: #453df9;
+		font-weight: bolder;
+	}
+	#new_all .medical_info input[type=text]{
+		width:90%;
+		height: 17%;
+		padding: 0px;
+		border-radius:2px;
+		background-color:#dfddda;
+		padding-left:3.5px;
+		font-family:Times New Roman;
+		font-size:16px;
+		border:1px solid #cbc9c9;
+		margin-top: 2px;
+		margin-bottom: 2px;
+		margin-left: auto;
+		margin-right: 0px;
+		color: #000;
+	}
+
+
+
+
+
+
+
+	#new_all .relatives .fieldset{
+		width:70%; 
+		height:30%;
+		margin-left:10px;
+		float:left;
+		border-radius:10px;
+		border:1px solid #453df9;
+		margin-bottom:3px;
+		margin-top:2px;
+		
+	}
+	#new_all .relatives .fieldset legend{
+		border:0px auto;
+		font-size: 14px;
+		font-family: Lucida Fax;
+		color: #453df9;
+		font-weight: bolder;
+	}
+
+
+	#new_all .relatives .fieldset input[type=text]{
+		width:40%;
+		height: 25px;
+		padding: 0px;
+		border-radius:2px;
+		background-color:#dfddda;
+		padding-left:3.5px;
+		font-family:Times New Roman;
+		font-size:16px;
+		border:1px solid #cbc9c9;
+		margin-top: 2px;
+		margin-bottom: 2px;
+		margin-left: 1px;
+		margin-right: 0px;
+		color: #000;
+	}
+
+	#new_all .relatives .fieldset input[type=date]{
+		width:40%;
+		height: 25px;
+		padding: 0px;
+		border-radius:2px;
+		background-color:#dfddda;
+		padding-left:3.5px;
+		font-family:Times New Roman;
+		font-size:16px;
+		border:1px solid #cbc9c9;
+		margin-top: 2px;
+		margin-bottom: 2px;
+		margin-left: 1px;
+		margin-right: 0px;
+		color: #000;
+	}
+
+
+
+
+	#new_all form input[type=submit]{
+		background-color: #453df9;
+		float:right;
+		margin-right:80px;
+		margin-top:50px;
+		color:#fff;
+		padding:25px;
+		font-size:20px;
+		width:100px;
+		font-weight:bold;
+		border-radius:10px;
+	}
+
+
+
+
+
+
+
+	#after_send{
+			max-height: 371px;
+			width: 450px;
+			background: #ff0000;
+		}
+		#after_send .singup_info_area{
+			width: 450px;
+			min-max-height: 345px;
+			background-color: #fff;
+			padding-top: 60px;
+		}
+		#after_send .singup_info_area .ul1 {
+			list-style: none;
+			width: 440px;
+			max-height: 40px;
+			background: #b0c9df;
+			margin: 0px;
+			font-size: 16px;
+			font-family: Lucida Fax, Open sans, sans-serif, Arial, Times New Roman;
+			text-align: justify;
+			padding-left: 7px;
+			padding-right: 2px;
+			padding-top: 3px;
+			font-weight: 800;
+		}
+		#after_send .singup_info_area .ul2{
+			list-style: none;
+			width: 440px;
+			max-height: 40px;
+			background: #eef3f8;
+			margin: 0px;
+			font-size: 16px;
+			font-family: Lucida Fax, Open sans, sans-serif, Arial, Times New Roman;
+			text-align: justify;
+			padding-left: 7px;
+			padding-right: 2px;
+			padding-top: 3px;
+			font-weight: 500;
+		
+		}
+		#after_send .ok_edit_buttons{
+			width: 450px;
+			max-height: 70px;
+			position: relative;
+			background-color: #3472a6;
+		}
+		#after_send .ok_edit_buttons input[type="button"]{
+			width: 49.5%;
+			max-height: 100%
+			margin: 0px;
+			padding: 15px;
+			font-family: Open sans, sans-serif, Arial, Times New Roman;
+			background-color: #3472a6;
+			border: 0px;
+			border-left: 1px solid #ccc;
+			border-radius: 1px solid #ccc;
+			font-size: 2em;
+			color: #ffc;
+			cursor: pointer;
+		}
+		#after_send .ok_edit_buttons input[type="button"]:hover{
+			color: #ccf;
+			}

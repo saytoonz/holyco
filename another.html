@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>try</title>
+	<style type="text/css">
+	#search_back{
+		position: fixed;
+		margin: 0px;
+		padding: 0px;
+		top: 0px;
+		left: 0px;
+		height: 100%;
+		width: 100%;
+		background-color: rgba(0,0,0,0.05);
+		z-index: 500;
+	}
+	#search{
+		height: 235px;
+		width: 485px;
+		border: 7px solid #55b2ec;
+		background-color: #55b2ec;
+		overflow: hidden;
+		box-shadow: 2px 2px 7px rgba(0,0,0,0.5);
+		display: block;
+		margin-top: 80px;
+	}
+	#search #menu_bar{
+		height: 27px;
+		width: 100%;
+	}
+	#search #menu_bar #close{
+		border: 2px solid #df1111;
+		height: 80%;
+		width: 25px;
+		text-align: center;
+		float: right;
+		margin: 0px;
+		background: #df1111;
+		color: #fff;
+		font-family: Arial;
+		cursor: pointer;
+	}
+	#search #menu_bar #close:hover{
+		background: #f50505;
+	}
+	#search #menu_bar #title{
+		height: 80%;
+		width: 90%;
+		background-color: inherit;
+		overflow: hidden;
+		text-align: center;
+		font-family: Arial;
+		font-size: 16px;
+		color: #000;
+	}
+	#search #record_holder{
+		overflow-y: auto;
+		height: 100%;
+		width: 100%;
+		background-color: #ebecec;
+		border: 1px solid #064c79;
+		padding-top: 10px;
+	}
+	</style>
+</head>
+<body>
+<div id="search_back">
+	<center>
+		<div id="search">
+			<div id="menu_bar">
+				<div id="close" title="Close" onclick="document.getElementById('search_back').style.display='none'">
+					x
+				</div>
+				<div id="title">
+					klmaf
+				</div>
+			</div>
+			<div id="record_holder">
+				<div>
+					<img src="images/manage.png" height="40" style="float: left; margin-left: 30px;">
+					<span style="float: left; font-size: 14px; font-family: Arial;">Manage the staff Log in Informations</span>
+				</div><br /><br />
+				<div style="text-align: left;">
+					<img src="images/file.png" style="float: left; height: 110px; margin-left: 60px; margin-top: 0px; ">
+					<span style="float: right; margin-right: 120px; font-size: 14px; font-family: Arial">
+						Name    :  	 nagkljag<br />
+						Staff ID:	 564646<br />
+						Last Log in: Date and Time
+					</span>
+				</div>
+				<br /><br /><br /><br /><br />
+				<div style="width: 46%; margin-top: 10px; float: right;">
+					<input type="submit" value="Reset" name="reset" style="width: 90px; height: 26px;"></input>
+					<input type="submit" value="Delete" name="delete" style="width: 90px; height: 26px;"></input>
+				</div>
+			</div>
+		</div>
+	</center>
+</div>
+</body>
+</html>

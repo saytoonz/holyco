@@ -1,0 +1,72 @@
+.third_from_left_top{
+	height: 200px;
+	width: 200px;
+	background-color: #f3f3f3;
+	margin: 27px;
+	float: right;
+	border:  2px solid #ccc;
+	background-image: url("../images/payment_info.png");
+	background-repeat: no-repeat;
+	background-size: 150px 150px;
+	background-position: 25px 7px;
+	font-family: Lucida Fax;
+	font-size: 16px;
+	color: #000;
+}
+.second_from_left_top{
+	height: 200px;
+	width: 200px;
+	background-color: #f3f3f3;
+	margin: 27px;
+	float: right;
+	border:  2px solid #ccc;
+	background-image: url("../images/assign_payment.png");
+	background-repeat: no-repeat;
+	background-size: 150px 150px;
+	background-position: 25px 0px;
+	font-family: Lucida Fax;
+	font-size: 16px;
+	color: #000;
+}
+.first_from_left_top{
+	height: 200px;
+	width: 200px;
+	background-color: #f3f3f3;
+	margin: 27px;
+	float: left;
+	border:  2px solid #ccc;
+	background-image: url("../images/confirm.png");
+	background-repeat: no-repeat;
+	background-size: 150px 150px;
+	background-position: 25px 0px;
+	font-family: Lucida Fax;
+	font-size: 16px;
+	color: #000;
+}
+.last_div{
+	height: 200px;
+	width: 200px;
+	background-color: #f3f3f3;
+	margin: 27px;
+	float: left;
+	border:  2px solid #ccc;
+	background-image: url("../images/delete_staff.png");
+	background-repeat: no-repeat;
+	background-size: 150px 150px;
+	background-position: 25px 0px;
+	font-family: Lucida Fax;
+	font-size: 16px;
+	color: #000;
+}
+.add_new_login_staff_back{
+	position: fixed;
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.05);
+	z-index: 500;
+	display: none;
+}

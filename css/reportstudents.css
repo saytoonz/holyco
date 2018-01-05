@@ -1,0 +1,158 @@
+.allInfee_payment{
+	height: 200px;
+	width: 200px;
+	background-color: #f3f3f3;
+	margin: 27px;
+	float: right;
+	border:  2px solid #ccc;
+	background-image: url("../images/feepayment.png");
+	background-repeat: no-repeat;
+	background-size: 150px 150px;
+	background-position: 25px 7px;
+	font-family: Lucida Fax;
+	font-size: 16px;
+	color: #000;
+}
+.allInnewentry{
+	height: 200px;
+	width: 200px;
+	background-color: #f3f3f3;
+	margin: 27px;
+	float: right;
+	border:  2px solid #ccc;
+	background-image: url("../images/newentry.png");
+	background-repeat: no-repeat;
+	background-size: 150px 150px;
+	background-position: 25px 7px;
+	font-family: Lucida Fax;
+	font-size: 16px;
+	color: #000;
+}
+.allInactivate_de{
+	height: 200px;
+	width: 200px;
+	background-color: #f3f3f3;
+	margin: 27px;
+	float: right;
+	border:  2px solid #ccc;
+	background-image: url("../images/allInactivate_de.png");
+	background-repeat: no-repeat;
+	background-size: 150px 150px;
+	background-position: 25px 7px;
+	font-family: Lucida Fax;
+	font-size: 16px;
+	color: #000;
+}
+
+.allIn2feeowing{
+	height: 200px;
+	width: 200px;
+	background-color: #f3f3f3;
+	margin: 27px;
+	float: left;
+	border:  2px solid #ccc;
+	background-image: url("../images/owing.png");
+	background-repeat: no-repeat;
+	background-size: 150px 150px;
+	background-position: 25px 7px;
+	font-family: Lucida Fax;
+	font-size: 16px;
+	color: #000;
+}
+.allIn2billings{
+	height: 200px;
+	width: 200px;
+	background-color: #f3f3f3;
+	margin: 27px;
+	float: left;
+	border:  2px solid #ccc;
+	background-image: url("../images/owed.png");
+	background-repeat: no-repeat;
+	background-size: 150px 150px;
+	background-position: 25px 7px;
+	font-family: Lucida Fax;
+	font-size: 16px;
+	color: #000;
+}
+.allIn2infoupdate{
+	height: 200px;
+	width: 200px;
+	background-color: #f3f3f3;
+	margin: 27px;
+	float: left;
+	border:  2px solid #ccc;
+	background-image: url("../images/infoupdate.png");
+	background-repeat: no-repeat;
+	background-size: 150px 150px;
+	background-position: 25px 7px;
+	font-family: Lucida Fax;
+	font-size: 16px;
+	color: #000;
+}
+
+
+
+
+.add_new_login_staff_back{
+	position: fixed;
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.05);
+	z-index: 500;
+	display: none;
+}
+#add_login_staff_all{
+	height: 350px;
+	width: 400px;
+	border: 4px solid #37a1e4;
+	background-color: #37a1e4;
+	overflow: hidden;
+	box-shadow: 2px 2px 7px rgba(0,0,0,0.5);
+	display: block;
+	margin-top: 100px;
+}
+#add_login_staff_all #menu_bar{
+	height: 27px;
+	width: 100%;
+}
+#add_login_staff_all #menu_bar #close{
+	border: 2px solid #df1111;
+	height: 80%;
+	width: 25px;
+	text-align: center;
+	float: right;
+	margin: 0px;
+	background: #df1111;
+	color: #fff;
+	font-family: Arial;
+	cursor: pointer;
+}
+#add_login_staff_all #menu_bar #close:hover{
+	background: #f50505;
+}
+#add_login_staff_all #menu_bar #title{
+	height: 80%;
+	width: 90%;
+	background-color: inherit;
+	overflow: hidden;
+	text-align: center;
+	font-family: Arial;
+	font-size: 15px;
+	color: #000;
+	padding-top: 3px; 
+}
+#add_login_staff_all #record_holder{
+	overflow-y: auto;
+	height: 523px;
+	width: 100%;
+	background-color: #fff;
+	border: 1px solid #064c79;
+}
+
+#add_login_staff_all #record_holder select{
+	border: 1px solid #039b9b;
+}

@@ -1,0 +1,78 @@
+#daily_colletion_report{
+	height: 160px;
+	width: 610px;
+	background: #fff;
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 100px;
+	border: 4px solid #ccc;
+	padding-top: 4px;
+	padding-bottom: 8px;
+	padding-left: 4px;
+	padding-right: 8px;
+}
+#daily_colletion_report #in{
+	height: 100%;
+	width: 100%;
+	background: #fff;
+	border: 2px solid #dcc5ee;
+}
+#daily_colletion_report #in #amountHolder{
+	height: 70%;
+	width: 95%;
+	border: 2px solid #bbb;
+	background: #f1f1f1;
+	border-radius: 7px;
+	margin:5px auto 0px;
+	font-family: Lucida Fax;
+	font-size: 30px;
+}
+#daily_colletion_report #in #amountHolder #cedis{
+	height: 32%;
+	width: 95%;
+	margin:0px auto 0px;
+	font-family: Lucida Fax;
+	font-size: 22px;
+}
+#daily_colletion_report #in #amountHolder #amount{
+	height: 49%;
+	width: 100%;
+	margin:0px auto 0px;
+	font-family: Lucida Fax;
+	font-size: 30px;
+}
+#daily_colletion_report #in #amountHolder #date{
+	height: 15%;
+	width: 35%;
+	border: 2px solid #bbb;
+	background: #f1f1f1;
+	font-family: Lucida Calligraphy;
+	font-size: 14px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 0px;
+	border-bottom: 0px;
+	text-align: center;
+	padding-top: 3px;
+}
+#daily_colletion_report #in #allbut{
+	height: 20%;
+	width: 100%;
+	border: 0px solid #bbb;
+	background: transparent;
+	border-radius: 0px;
+	margin:5px auto 0px;
+}
+#daily_colletion_report #in #allbut input[type="submit"]{
+	height: 95%;
+	width: 17%;
+	border: 1px solid #bbb;
+	background: transparent;
+	border-radius: 0px;
+	color: #555;
+	font-family: Lucida Fax;
+	font-size: 16px;
+	float: right;
+	margin-right: 50px;
+	cursor: pointer;
+}

@@ -1,0 +1,132 @@
+#add_new_login_staff_back{
+	position: fixed;
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.05);
+	z-index: 500;
+	display: none;
+}
+#add_login_staff_all{
+	height: 350px;
+	width: 400px;
+	border: 4px solid #37a1e4;
+	background-color: #37a1e4;
+	overflow: hidden;
+	box-shadow: 2px 2px 7px rgba(0,0,0,0.5);
+	display: block;
+	margin-top: 100px;
+}
+#add_login_staff_all #menu_bar{
+	height: 27px;
+	width: 100%;
+}
+#add_login_staff_all #menu_bar #close{
+	border: 2px solid #df1111;
+	height: 80%;
+	width: 25px;
+	text-align: center;
+	float: right;
+	margin: 0px;
+	background: #df1111;
+	color: #fff;
+	font-family: Arial;
+	cursor: pointer;
+}
+#add_login_staff_all #menu_bar #close:hover{
+	background: #f50505;
+}
+#add_login_staff_all #menu_bar #title{
+	height: 80%;
+	width: 90%;
+	background-color: inherit;
+	overflow: hidden;
+	text-align: center;
+	font-family: Arial;
+	font-size: 15px;
+	color: #000;
+	padding-top: 3px; 
+}
+#add_login_staff_all #record_holder{
+	overflow-y: auto;
+	height: 523px;
+	width: 100%;
+	background-color: #fff;
+	border: 1px solid #064c79;
+}
+
+#add_login_staff_all #record_holder input[type="submit"]{
+	border: 1px solid #039b9b;
+}
+#add_login_staff_all #record_holder select{
+	border: 1px solid #039b9b;
+	width: 88%;
+	height: 34px;
+	background: #f3f3f3;
+	margin-top: 55px;
+	margin-bottom: 5px;
+
+}
+
+.manage_login_staff_back{
+	position: fixed;
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.05);
+	z-index: 500;
+	display: none;
+}
+#manage_login_staff{
+	height: 235px;
+	width: 485px;
+	border: 7px solid #55b2ec;
+	background-color: #55b2ec;
+	overflow: hidden;
+	box-shadow: 2px 2px 7px rgba(0,0,0,0.5);
+	display: block;
+	margin-top: 80px;
+}
+#manage_login_staff #menu_bar{
+	height: 27px;
+	width: 100%;
+}
+#manage_login_staff #menu_bar #close{
+	border: 2px solid #df1111;
+	height: 80%;
+	width: 25px;
+	text-align: center;
+	float: right;
+	margin: 0px;
+	background: #df1111;
+	color: #fff;
+	font-family: Arial;
+	cursor: pointer;
+}
+#manage_login_staff #menu_bar #close:hover{
+	background: #f50505;
+}
+#manage_login_staff #menu_bar #title{
+	height: 80%;
+	width: 90%;
+	background-color: inherit;
+	overflow: hidden;
+	text-align: center;
+	font-family: Arial;
+	font-size: 16px;
+	color: #000;
+}
+#manage_login_staff #record_holder{
+	overflow-y: auto;
+	height: 100%;
+	width: 100%;
+	background-color: #ebecec;
+	border: 1px solid #064c79;
+	padding-top: 10px;
+}
